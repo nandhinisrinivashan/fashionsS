@@ -1,0 +1,118 @@
+
+.flex-box{
+    display:flex;
+    width:1000px;
+    margin: 20px auto;
+}
+.left{
+    width:50%;
+}
+.big-img{
+    width:250px;
+}
+.big-img img{
+    width: inherit;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 15px;
+}
+.small-img{
+    width:50px;
+    overflow: hidden;
+    border:1.5px solid rgb(10, 10, 10);
+}
+.small-img img{
+    width:inherit;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+.small-img:hover img{
+    transform: scale(1,2);
+}
+.url{
+    font-size:16px;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+}
+.pname{
+    font-size:22px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.ratings i{
+    color:rgb(110, 107, 102);
+}
+.price{
+    font-size: 20px;
+    font-weight:500;
+    margin:20px 0;
+}
+.size{
+    display:flex;
+    align-items: center;
+    margin: 20px;
+
+}
+.psize p{
+    font-size:18px;
+    font-weight: 600;
+    
+}
+.psize{
+    width:70px;
+    border:1px solid#79726e;
+    color:rgb(236, 233, 233);
+    color:white;
+    text-align: center;
+    margin:0 10px;
+}
+.psize.active{
+    border-width:1.5px;
+    color:#79726e;
+}
+.quantity{
+    display: flex;
+    color:white;
+}
+.quantity p{
+    font-size:18px;
+    font-weight: 600;
+}
+.quantity input{
+    width:40px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15px;
+    text-decoration: white;
+}
+.btn-box{
+    display:flex;
+    margin:20px 0;
+}
+.btn-box button{
+    font-size: 18px;
+    padding:8px 25px;
+    border:none;
+    outline:none;
+    border-radius: 6px;
+    cursor:pointer;
+    color:rgb(252, 252, 252);
+}
+.cart-btn{
+    background-color: #79726e;
+    margin-right: 20px;
+}
+.buy-btn{
+    background-color: rgb(45, 73, 100);
+}
+.cart-btn:hover{
+    background-color: #3d3c3b;
+
+}
+.buy-btn:hover{
+    background-color: rgb(29, 57, 85);
+}

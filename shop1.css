@@ -1,0 +1,152 @@
+*{
+    background-image: url(green.jpg);
+    background-size: cover;background-attachment: fixed;
+    background-position: center;
+
+}
+#one{
+  height: 50px;
+  width: 550px;  
+}
+.input{
+    padding-left: 20px;
+    display: inline;
+}
+#images{
+    padding-left: 5px;
+    padding-top: 250px;
+}
+.images2{
+    width: 700px;
+    height: 400px;
+border: 10px solid red;position: relative;
+}
+.images1{
+    width: 700px;
+    height: 400px;
+    border: 10px solid red;position: relative;
+
+}
+#para{
+    height: 100px;width: 700px;   border: 2px solid black;text-align: center;
+    display: inline-block;padding: 1px;padding-top: 20px;
+}
+#para2{
+    border: 2px solid black;text-align: center;
+    height: 100px;width: 710px;
+    display: inline-block;padding: 1px;padding-top: 20px;
+}
+.forpara2{
+    display: inline-block;
+    padding-left: 10px;}
+img{   
+height: 200px;
+width: 320px;position: absolute;border: 3px solid black;
+}
+.container{
+    padding-top: 100px;padding-bottom: 10px;
+    height: 0px;
+    width: 0px;
+    position: relative;
+    perspective: 1000px;
+    margin-top: 10%;
+    margin-left: 40%;
+    transform-style: preserve-3d;
+    transform: rotateX(-5deg)rotateZ(-5deg);
+    animation: ror 20s linear infinite;
+}
+@keyframes ror{
+    50%{
+        transform: rotateX(10deg);
+    }
+    80%{
+        transform: rotateX(-10deg);
+    }
+}
+.adapavi{
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate{
+    from{
+
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+.img1{
+    transform: rotateY(60deg) translateZ(300px);
+
+}
+.img2{
+    transform: rotateY(120deg) translateZ(300px);
+
+}
+.img3{
+    transform: rotateY(180deg) translateZ(300px);
+
+}
+.img4{
+    transform: rotateY(240deg) translateZ(300px);
+
+}
+.img5{
+    transform: rotateY(300deg) translateZ(300px);
+
+}
+.img6{
+    transform: rotateY(360deg) translateZ(300px);
+
+}
+.img1:hover{
+width: 340px;
+height: 220px;
+cursor: pointer;
+}
+.img2:hover{
+    width: 340px;
+    height: 220px;
+    cursor: pointer;
+    }
+    .img3:hover{
+        width: 340px;
+        height: 220px;
+        cursor: pointer;
+        }
+        .img4:hover{
+            width: 340px;
+            height: 220px;
+            cursor: pointer;
+            }
+            .img5:hover{
+                width: 340px;
+                height: 220px;
+                cursor: pointer;
+                }
+                .img6:hover{
+                    width: 340px;
+                    height: 220px;
+                    cursor: pointer;
+                    }
+#text1{
+font-family: cursive;
+}
+.mail{
+    height: 30px;
+    width: 30px;
+    border: 0px;
+    padding-left: 55%;
+}
+.mail:hover{
+    cursor: pointer;
+}
+#icons{
+    display: inline-block;
+}
+#icons:hover{
+background-color: aliceblue;
+color: black;
+}
