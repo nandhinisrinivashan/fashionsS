@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    padding-left: 45%;
+    padding-bottom: 25%;
+}
+h1{
+    text-decoration: none;
+    color: white;
+    padding-left: 10%;  
+}
+.id{
+    background:linear-gradient(rgba(4, 4, 4, 0.5),rgba(5, 5, 5, 0.5)),url("homee.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: sticky;
+    top :0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all.5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin:40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border:1px solid white;
+    color:white;
+    outline:none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 5px white,0 0 10px white,0 0 15px white;
+    font-weight: bold;
+}

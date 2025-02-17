@@ -1,0 +1,67 @@
+body{
+    background:linear-gradient(rgba(5, 5, 5, 0.5),rgba(5, 5, 5, 0.5)),url("image1.jpg");
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #757272;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the heading */
+h2 {
+    color: #333;
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Style the form labels and input fields */
+label {
+    display: block;
+    margin-top: 5px;
+    color: #333;
+    text-decoration: none;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 0px solid #ccc;
+    border-radius: 2px;
+    text-decoration: none;
+    color:grey;
+    padding-left: 0%;
+    
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #070707;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5px;
+    text-decoration: none;
+    color:rgb(156, 147, 147);
+}
+
+/* Change the appearance on hover for the submit button */
+input[type="submit"]:hover {
+    background-color: #23272b;
+}
